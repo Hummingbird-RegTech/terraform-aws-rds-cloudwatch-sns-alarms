@@ -38,9 +38,9 @@ variable "freeable_memory_threshold" {
 variable "free_storage_space_threshold" {
   description = "The minimum amount of available storage space in Byte."
   type        = string
-  default     = 2000000000
+  default     = 40000000000
 
-  # 2 Gigabyte in Byte
+  # 40 Gigabytes in Bytes
 }
 
 variable "swap_usage_threshold" {
